@@ -1,12 +1,107 @@
-# testcase-docs
-This document, with its goal to compile a section on testing web frameworks across multiple languages, also seeks to enhance understanding of the testing environment through various examples. If you have additional details or changes to propose, please submit a pull request. Feel free to contribute or suggest improvements to achieve a better grasp of testing concepts.
+# 테스트케이스 DOCS
+
+**_본 문서는 한글로 정리되어있습니다._**
+
+이 문서는 여러 언어를 대상으로 웹 프레임워크를 테스트하는 섹션을 편집하는 것을 목표로 하며, 다양한 예제를 통해 테스트 환경에 대한 이해를 향상시키고자 합니다. 추가 세부 정보나 제안할 변경 사항이 있는 경우 풀 리퀘스트를 제출해 주세요.
+
+> 테스팅 개념을 이해하기 쉽게 수정하거나 추가 내용에 따른 수정을 위해 기여하거나 개선을 제안하는 것에 자유롭게 참여해 주세요.
+
+## Spring Boot
+
+<img src="https://github.com/KNU-K/testcase-docs/assets/126179088/b282ecbe-b1bd-45b4-bf91-c1242a3ba2f5" width="100px"/>
+
+해당 프로젝트는 JUnit, AssertJ, Mockito 등과 같은 라이브러리를 사용하여 정리될 예정입니다.
+
+### 단위 테스트는 어떻게 처리할까요?
+
+#### 1. 스프링 부트에서의 단위 테스트 소개
+
+-- 1.1. 단위 테스트의 개념과 중요성
+
+-- 1.2. 단위 테스트의 이점
+
+#### 2. JUnit 설정하기
+
+-- 2.1. JUnit 5와 스프링 부트의 통합
+
+-- 2.2. JUnit 애노테이션 활용
+
+#### 3. 어서트 제공을 위한 AssertJ 활용
+
+-- 3.1. AssertJ 소개 및 기본 사용법
+
+-- 3.2. AssertJ의 고급 기능 활용
+
+#### 4. Mockito를 사용한 목 객체(Mock Object) 생성
+
+-- 4.1. Mockito 소개와 기본 개념
+
+-- 4.2. Mockito를 활용한 객체의 목 생성
+
+-- 4.3. Stubbing과 Mocking의 차이
+
+#### 5. 효과적인 단위 테스트 작성
+
+-- 5.1. 테스트 코드의 가독성과 유지보수성 확보
+
+-- 5.2. Arrange-Act-Assert (AAA) 패턴
+
+-- 5.3. 테스트 커버리지 개선 전략
+
+#### 6. 단위 테스트에 대한 Best Practices
+
+-- 6.1. 테스트 코드 리뷰와 피드백
+
+-- 6.2. 테스트 자동화의 중요성
+
+### 통합 테스트는 어떻게 처리할까요?
+
+#### 1. 스프링 부트에서의 통합 테스트 개요
+
+-- 1.1. 통합 테스트의 목적과 필요성
+
+-- 1.2. 단위 테스트와 통합 테스트의 차이점
+
+#### 2. 통합 테스트를 위한 환경 설정
+
+-- 2.1. 테스트 데이터베이스 설정
+
+-- 2.2. 외부 서비스 Mocking
+
+#### 3. 스프링 부트 애플리케이션을 위한 통합 테스트 작성
+
+-- 3.1. 웹 계층 테스트
+
+---- 3.1.1. 컨트롤러 테스트
+
+---- 3.1.2. REST API 테스트
+
+-- 3.2. 서비스 계층 테스트
+
+-- 3.3. 데이터베이스 연동 테스트
+
+#### 4. 스프링 부트 구성 요소 간의 테스트
+
+-- 4.1. 빈 간 의존성 테스트
+
+-- 4.2. 프로파일에 따른 테스트
+
+#### 5. 통합 테스트에서 외부 종속성(Mocking) 처리
+
+-- 5.1. 외부 API Mocking
+
+-- 5.2. 외부 서비스 Mocking
+
+-- 5.3. 데이터베이스 Mocking
+
+#### 6. 효과적인 통합 테스트 전략
+
+-- 6.1. 테스트 데이터의 관리
+
+-- 6.2. 테스트 환경의 자동화
+
+-- 6.3. CI/CD 파이프라인 통합
 
 ## Express
 
 <img src="https://github.com/KNU-K/testcase-docs/assets/126179088/5adbfea0-db09-47a2-bae1-a5a8d7801f06" width="80px"/>
-
-
-## Spring boot
-
-
-<img src="https://github.com/KNU-K/testcase-docs/assets/126179088/b282ecbe-b1bd-45b4-bf91-c1242a3ba2f5" width="100px"/>
